@@ -11,6 +11,9 @@ Released closed milestones can be found on [GitHub](https://github.com/Icinga/ic
 
 [Issue and PRs](https://github.com/Icinga/icinga-powershell-plugins/milestone/11?closed=1)
 
+## Bugfixes
+
+* [#199](https://github.com/Icinga/icinga-powershell-plugins/issues/199) Fixes `Invoke-IcingaCheckDiskHealth` to add disk metadata like serial number and friendly name for any disk type processed
 * [#246](https://github.com/Icinga/icinga-powershell-plugins/pull/246) Fixes wrong `UNKNOWN` on `Invoke-IcingaCheckService` while using service display name with the `-Service` argument instead of the service name
 
 ## 1.7.0 (2021-11-09)
